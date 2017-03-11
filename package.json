@@ -1,0 +1,37 @@
+{
+  "name": "aws-sign-proxy",
+  "version": "1.0.0",
+  "description": "AWS Sign Proxy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.5.1",
+    "basic-auth-connect": "^1.0.0",
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "express": "^4.14.0",
+    "figlet": "^1.1.2",
+    "http-proxy": "^1.14.0",
+    "yargs": "^4.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiooliveiraeti/aws-sign-proxy.git"
+  },
+ "keywords": [
+    "AWS",
+    "AWS Sign Proxy",
+    "Sign"
+  ],
+  "engines": {
+    "node": "6.3.0"
+  },
+  "author": "Caio Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiooliveiraeti/aws-sign-proxy/issues"
+  },
+  "homepage": "https://github.com/caiooliveiraeti/aws-sign-proxy#readme"
+}

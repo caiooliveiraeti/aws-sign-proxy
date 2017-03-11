@@ -1,0 +1,17 @@
+{
+  "name": "aws-sign-proxy",
+  "description": "A simple proxy to allow external access to your AWS Service instance",
+  "repository": "https://github.com/caiooliveiraeti/aws-sign-proxy",
+  "keywords": [
+    "AWS",
+    "Sign",
+    "AWS Sign Proxy"
+  ],
+  "env": {
+    "AWS_ACCESS_KEY_ID" : "Your AWS Access Key ID Here",
+    "AWS_SECRET_ACCESS_KEY" : "Your AWS Secret Key Here",
+    "ENDPOINT" : "SERVICE Endpoint (ex: endpoint.region.service.amazonaws.com)",
+    "USER" : "HTTP Auth Username",
+    "PASSWORD" : "HTTP Auth Password"
+  }
+}
