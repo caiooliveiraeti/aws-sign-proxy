@@ -66,7 +66,7 @@ if (!ENDPOINT) {
 // Try to infer the region if it is not provided as an argument.
 var REGION = argv.r;
 if (!REGION) {
-    var m = ENDPOINT.match(/\.([^.]+)\.([^.]+)\.amazonaws\.com\.?$/);
+    var m = ENDPOINT.match(/([^.]+)\.([^.]+)\.amazonaws\.com\.?$/);
     if (m) {
         REGION = m[1];
     } else {
@@ -80,7 +80,7 @@ if (!REGION) {
 // Try to infer the servicename if it is not provided as an argument.
 var SERVICE = argv.s;
 if (!REGION) {
-    var m = ENDPOINT.match(/\.([^.]+)\.([^.]+)\.amazonaws\.com\.?$/);
+    var m = ENDPOINT.match(/([^.]+)\.([^.]+)\.amazonaws\.com\.?$/);
     if (m) {
         SERVICE = m[2];
     } else {
